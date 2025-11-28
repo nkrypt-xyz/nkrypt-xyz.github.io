@@ -235,7 +235,7 @@
                   color="primary"
                   icon="person"
                   label="Sayem Shafayet"
-                  href="https://ishafayet.me"
+                  href="https://sayemshafayet.com"
                   target="_blank"
                 />
               </li>
@@ -253,7 +253,7 @@
         <div class="text-center">
           <p class="footer-copyright">
             © 2023
-            <a href="https://ishafayet.me" target="_blank" class="text-primary"
+            <a href="https://sayemshafayet.com" target="_blank" class="text-primary"
               >Sayem Shafayet</a
             >
           </p>
