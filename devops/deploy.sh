@@ -13,6 +13,9 @@ rm -rf docs
 mkdir -p docs
 cp -r client/dist/spa/* docs/
 
+echo "📋 Copying CNAME file to docs directory..."
+cp CNAME docs/
+
 echo "✅ Deployment files ready in docs/ directory"
 echo "📝 Next steps:"
 echo "   1. Review the docs/ directory"
