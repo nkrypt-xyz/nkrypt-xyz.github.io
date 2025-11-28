@@ -12,18 +12,18 @@
                 class="logo-image"
               />
             </div>
-            <h1 class="hero-title q-mb-md">
+            <h1 class="hero-title q-mb-md" style="margin-bottom: 12px;">
               <span class="gradient-text">nkrypt.xyz</span>
             </h1>
-            <p class="hero-subtitle q-mb-lg">
+            <p class="hero-subtitle q-mb-lg" style="margin-bottom: 12px;">
               Free and Open Source End-to-End encrypted, Self-hosted, Programmable
               Containers for everything you want to secure.
             </p>
-            <p class="hero-tagline q-mb-xl">
+            <p class="hero-tagline q-mb-xl" style="margin-bottom: 20px;">
               "Privacy should not be an afterthought. What is meant for your
               eyes and your eyes only, we make sure it stays that way."
             </p>
-            <div class="row q-gutter-md justify-center q-mb-xl">
+            <div class="row q-gutter-md justify-center q-mb-xl" style="margin-top: 20px;">
               <q-btn
                 unelevated
                 color="primary"
@@ -105,7 +105,7 @@
             class="col-12 col-sm-6 col-md-4 col-lg-3"
           >
             <q-card class="screenshot-card" dark flat>
-              <q-img :src="img" :alt="`Screenshot ${idx + 1}`" ratio="9/16" />
+              <img :src="img" :alt="`Screenshot ${idx + 1}`" class="screenshot-image" />
             </q-card>
           </div>
         </div>
@@ -570,6 +570,13 @@ const useCases = [
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 32px rgba($primary, 0.3);
+  }
+
+  .screenshot-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
   }
 }
 
