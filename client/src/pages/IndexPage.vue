@@ -16,8 +16,8 @@
               <span class="gradient-text">nkrypt.xyz</span>
             </h1>
             <p class="hero-subtitle q-mb-lg" style="margin-bottom: 12px;">
-              Free and Open Source End-to-End encrypted, Self-hosted, Programmable
-              Containers for everything you want to secure.
+              Open-source, end-to-end encrypted, self-hosted data containers
+              with programmable APIs for secure data management.
             </p>
             <p class="hero-tagline q-mb-xl" style="margin-bottom: 20px;">
               "Privacy should not be an afterthought. What is meant for your
@@ -66,7 +66,7 @@
         <div class="text-center q-mb-xl">
           <h2 class="section-title q-mb-md">Why nkrypt.xyz?</h2>
           <p class="section-subtitle">
-            Built with security and privacy at its core
+            Enterprise-grade security with developer-friendly architecture
           </p>
         </div>
         <div class="row q-gutter-lg">
@@ -95,7 +95,7 @@
         <div class="text-center q-mb-xl">
           <h2 class="section-title q-mb-md">See It In Action</h2>
           <p class="section-subtitle">
-            Experience the power of secure, encrypted containers
+            Explore the interface and capabilities of our secure container platform
           </p>
         </div>
         <div class="row q-gutter-md justify-center">
@@ -116,9 +116,9 @@
     <section id="use-cases" class="section use-cases-section">
       <div class="container">
         <div class="text-center q-mb-xl">
-          <h2 class="section-title q-mb-md">Perfect For Everyone</h2>
+          <h2 class="section-title q-mb-md">Use Cases</h2>
           <p class="section-subtitle">
-            Secure your data, regardless of who you are
+            Secure data management across diverse scenarios
           </p>
         </div>
         <div class="row q-gutter-lg">
@@ -160,7 +160,7 @@
             <q-card class="involvement-card" dark flat bordered>
               <q-card-section>
                 <q-icon name="bug_report" size="48px" color="warning" class="q-mb-md" />
-                <h3 class="q-mb-sm">Become a Beta Tester</h3>
+                <h3 class="q-mb-sm">Beta Testing Program</h3>
                 <p>
                   We are looking for the brave of heart to become our front-line in the
                   fight against bugs. No programming experience is needed.
@@ -172,10 +172,10 @@
             <q-card class="involvement-card" dark flat bordered>
               <q-card-section>
                 <q-icon name="code" size="48px" color="primary" class="q-mb-md" />
-                <h3 class="q-mb-sm">Contribute Code</h3>
+                <h3 class="q-mb-sm">Code Contributions</h3>
                 <p>
-                  Fork our repos and start development on your own. When you hit your
-                  Eureka moment, send us a pull request.
+                  Fork the repository and develop features or fixes independently.
+                  Submit pull requests for review and integration into the main codebase.
                 </p>
               </q-card-section>
             </q-card>
@@ -293,35 +293,35 @@ const features = [
     icon: 'lock',
     title: 'Genuine End-to-end Encryption',
     description:
-      'Nkrypt.xyz is secure by default. You create containers (we call them Buckets) with dedicated encryption passwords. All your data is encrypted on your device (web or mobile). The server (self-hosted or otherwise) never receives your encryption keys.',
+      'Client-side encryption ensures your data is secured before transmission. Containers (buckets) use dedicated encryption keys that never leave your device. The server infrastructure operates on encrypted data only, with zero-knowledge architecture.',
     color: 'positive',
   },
   {
     icon: 'share',
-    title: 'Shareable containers with granular permissions',
+    title: 'Granular Access Control',
     description:
-      'You can share individual containers with users of your network. Manage permissions at a granular level to ensure control.',
+      'Share containers with fine-grained permission management. Control read, write, and administrative access at the container and file level. Each user maintains independent encryption keys for shared resources.',
     color: 'primary',
   },
   {
     icon: 'verified',
     title: 'True FOSS, High Auditability',
     description:
-      'We genuinely believe in libre software. All the source code is published under GNU General Public License v3.0. But we don\'t stop there. We shall provide a complete independent auditing guide to allow a developer / team of developers to audit the code in under a week.',
+      'Licensed under GNU General Public License v3.0. Complete source code transparency with comprehensive auditing documentation. Security researchers and development teams can independently verify the codebase and security architecture.',
     color: 'secondary',
   },
   {
     icon: 'dns',
     title: 'Self-hostable Community Releases',
     description:
-      'We want you to use nkrypt.xyz. And we want you to have any degree of control you want. Nkrypt.xyz is designed from the ground-up to be self-hostable, either in a local server or a cloud provider. We even provide docker images and documentation to get you started.',
+      'Deploy on-premises or in your preferred cloud environment. Full control over infrastructure and data sovereignty. Pre-configured Docker images and comprehensive deployment documentation enable rapid setup and integration.',
     color: 'accent',
   },
   {
     icon: 'settings',
-    title: 'Programmable and Extensible',
+    title: 'Programmable API & Extensibility',
     description:
-      'Nkrypt.xyz is not a file container. It\'s a data container. It is designed to be programmable by third-party developers. We provide thorough API documentation to make integrations a breeze. Every entity/file can have both public and encrypted metadata for storing application data. We also provide file/directory level locking for multi-tenant access.',
+      'RESTful API architecture enables seamless third-party integrations. Comprehensive API documentation supports rapid development. Support for public and encrypted metadata per entity, with file and directory-level locking mechanisms for concurrent multi-tenant access.',
     color: 'info',
   },
 ];
@@ -329,37 +329,37 @@ const features = [
 const useCases = [
   {
     icon: 'home',
-    title: 'For Individuals & Domestic Use',
+    title: 'Personal & Home Use',
     description:
-      'All the front door footage or nanny-cam records that you want no one\'s hands on, we got your back with our CONTAINERS. It also allows you to choose with whom you will share specific data without sharing it all! Also, as an additional benefit, now you can rest assured, your grandma\'s secret recipe is stored safe and secure!',
+      'Securely store sensitive personal data including security camera footage, personal documents, and private files. Selective sharing capabilities allow you to grant access to specific containers without exposing your entire data repository.',
     color: 'primary',
   },
   {
     icon: 'work',
-    title: 'For Freelancers & Professionals',
+    title: 'Freelancers & Independent Professionals',
     description:
-      'Store research materials of your previous or on-going projects with nkrypt.xyz\'s end-to-end security. Nkrypt.xyz makes sure that none of your gigs get lost with time.',
+      'Maintain secure archives of project research, client materials, and proprietary work. End-to-end encryption protects intellectual property while ensuring long-term data preservation and accessibility.',
     color: 'secondary',
   },
   {
     icon: 'groups',
-    title: 'For Small Teams',
+    title: 'Small Teams & Startups',
     description:
-      'Safe-keep all the sensitive information of your DREAM-PROJECT and avoid prying eyes. The CONTAINER feature allows users to set individual passwords for each team member, if they want, without giving anything away!',
+      'Collaborative secure storage for sensitive project data and confidential information. Per-user encryption keys enable team members to access shared containers while maintaining individual security boundaries.',
     color: 'accent',
   },
   {
     icon: 'school',
-    title: 'For Students',
+    title: 'Students & Researchers',
     description:
-      'Store valuable lecture notes that you can read anytime on the go. Never miss an assignment deadline, cause you can get it from the nkrypt.xyz CLOUD wherever you want. Also, if you want a certain note gone, just set the TIMER!',
+      'Secure storage for academic materials, research data, and coursework. Cross-device synchronization ensures access from any location. Optional time-based expiration policies for temporary data management.',
     color: 'info',
   },
   {
     icon: 'public',
-    title: 'For Everyone',
+    title: 'Enterprise & Organizations',
     description:
-      'Get CUSTOMIZED high-end security for both personal and professional bits and pieces, and fear nevermore!',
+      'Scalable security architecture for organizations requiring data sovereignty and compliance. Customizable deployment options support enterprise security policies and regulatory requirements.',
     color: 'positive',
   },
 ];
