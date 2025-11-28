@@ -73,7 +73,7 @@
           <div
             v-for="(feature, idx) in features"
             :key="idx"
-            class="col-12 col-md-6 col-lg-4"
+            class="col-12 col-sm-6 col-md-4"
           >
             <q-card class="feature-card" dark flat bordered>
               <q-card-section>
@@ -515,6 +515,13 @@ const useCases = [
 // Features Section
 .features-section {
   background: $dark;
+
+  .row > div {
+    @media (min-width: 1024px) {
+      flex: 0 0 calc(33.333333% - 24px);
+      max-width: calc(33.333333% - 24px);
+    }
+  }
 }
 
 .feature-card {
@@ -583,6 +590,13 @@ const useCases = [
 // Use Cases Section
 .use-cases-section {
   background: $dark;
+
+  .row > div {
+    @media (min-width: 1024px) {
+      flex: 0 0 calc(50% - 24px);
+      max-width: calc(50% - 24px);
+    }
+  }
 }
 
 .use-case-card {
@@ -615,6 +629,13 @@ const useCases = [
 // Get Involved Section
 .get-involved-section {
   background: $dark-page;
+
+  .row > div {
+    @media (min-width: 1024px) {
+      flex: 0 0 calc(50% - 24px);
+      max-width: calc(50% - 24px);
+    }
+  }
 }
 
 .involvement-card {
