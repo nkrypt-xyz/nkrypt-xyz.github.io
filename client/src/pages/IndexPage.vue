@@ -20,8 +20,7 @@
               with programmable APIs for secure data management.
             </p>
             <p class="hero-tagline q-mb-xl" style="margin-bottom: 20px;">
-              "Privacy should not be an afterthought. What is meant for your
-              eyes and your eyes only, we make sure it stays that way."
+              "Privacy is a sacred trust we hold in the highest reverence."
             </p>
             <div class="row q-gutter-md justify-center q-mb-xl" style="margin-top: 20px;">
               <q-btn
