@@ -224,8 +224,8 @@
                   no-caps
                   color="primary"
                   icon="email"
-                  label="nkrypt.xyz@protonmail.com"
-                  href="mailto:nkrypt.xyz@protonmail.com"
+                  label="nkrypt.xyz.support@proton.me"
+                  href="mailto:nkrypt.xyz.support@proton.me"
                 />
               </li>
               <li>
@@ -245,7 +245,7 @@
             <h4 class="footer-title q-mb-md">Contributors</h4>
             <ul class="footer-links">
               <li>Sayem Shafayet - Founding Author & Maintainer</li>
-              <li>Mysha Azfar - Legal & Public Relations</li>
+              <li>Mysha Azfar - Product Owner</li>
             </ul>
           </div>
         </div>

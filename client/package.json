@@ -1,9 +1,9 @@
 {
   "name": "nkrypt-xyz-website",
   "version": "0.0.1",
-  "description": "Landing for nkrypt.xyz",
-  "productName": "Landing for nkrypt.xyz",
-  "author": "Sayem Shafayet <ishafayet@gmail.com>",
+  "description": "nkrypt.xyz - Free and Open Source End-to-End encrypted, Self-hosted, Programmable Containers for everything you want to secure.",
+  "productName": "nkrypt.xyz - Encrypted Data Containers",
+  "author": "Sayem Shafayet <sayemshafayet@protonmail.com>",
   "type": "module",
   "private": true,
   "scripts": {
